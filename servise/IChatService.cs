@@ -1,10 +1,11 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Runtime.Serialization;
+using System.ServiceModel;
+using System.Text;
 
-﻿namespace service.Services
-
-﻿using System.ServiceModel;
-
-namespace service.Services
-
+namespace servise
 {
     [ServiceContract(CallbackContract = typeof(IChatServiceCallback))]
     public interface IChatService

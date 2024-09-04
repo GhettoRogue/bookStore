@@ -1,18 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.ServiceModel;
 
-﻿namespace service.Models
-
-﻿using System.ServiceModel;
-
-namespace service.Models
-
+namespace servise
 {
     public class User
     {
         public int Id { get; set; }
         public string Name { get; set; }
         public OperationContext opCon { get; set; }
-        public OperationContext OpCon { get; set; }
-
 
     }
 }
